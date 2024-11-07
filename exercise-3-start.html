@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color: white;   
+        }
+        .header{
+            background-color: #1e90ff;
+            border-radius: 0.5em;
+            height:100px;
+            margin-bottom: 1em;
+            display: flex;
+            align-items: center;
+            padding-left:20px;
+           
+        }
+        .body{
+            border-radius: 0.5rem;
+            height: 68vh;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            gap:1em;
+            flex-grow: 1;
+        }
+        .footer{
+            background-color: #4169e1;
+            height: 100px;
+            border-radius:0.5em;
+            margin-top:1em;
+            display: flex;
+            align-items: center;
+            padding-left:20px;
+           
+        }
+        .sidebar{
+            background-color: #ff6347;
+            border-radius: 0.5rem;
+            height: 68vh;
+            width: 30%;
+            padding-left:20px;
+            
+        }
+        .main{
+            background-color: #3cb371;
+            border-radius: 0.5rem;
+            height: 68vh;
+            width: 70%;
+            padding-left:20px;
+            flex-grow: 1;
+        }
+        .item {
+            background-color: #2f8d59;
+            border-radius: 0.5rem;
+            width: 17%;
+            height: 100px;
+            margin: 1em;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            
+        }
+        p {
+            color: white;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><p>header</p></div>
+        <div class="body">
+            <div class="main">
+                <p>main</p>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+                <div class="item"><p>item</p></div>
+            </div>
+            <div class="sidebar"><p>sidebar</p></div>
+        </div>
+        <div class="footer"><p>footer</p></div>
+        
+    </div>
+</body>
+</html>
